@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 90%;
+    padding-bottom: 40px;
+}
+header{
+    background-color:black;
+    height: 60px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+nav{
+    background-color: royalblue;
+    list-style: none;
+    text-align: center;
+    
+}
+nav li  {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+
+section{
+    width: 50%;
+    
+    float: left;
+}
+.arti1 {
+    
+    margin-top: 3em;
+    margin-left: 10em;
+}
+.arti1 img {
+    width: 100%;
+    height: 350px;
+}
+.arti1 h2 {
+    padding: 15px 0px;
+}
+.arti1 p {
+    text-align: justify;
+}
+
+.arti2 {
+    
+    margin-top: 3em;
+    margin-left: 10em;
+}
+.arti2 img {
+    width: 100%;
+    height: 350px;
+}
+.arti2 h2 {
+    padding: 15px 0px;
+}
+.arti2 p {
+    text-align: justify;
+}
+
+.arti3 {
+    
+    margin-top: 3em;
+    margin-left: 10em;
+}
+.arti3 img {
+    width: 100%;
+    height: 350px;
+}
+.arti3 h2 {
+    padding: 15px 0px;
+}
+.arti3 p {
+    text-align: justify;
+}
+
+aside {
+  
+   float: right;
+   width: 50%;
+   text-align: center;
+   margin-top:3em;
+
+   
+}
+aside div {
+    background-color: black;
+    width: 250px;
+    margin-left: 150px;
+    border-radius: 30px;
+    padding: 10px;
+}
+aside img {
+    border-radius: 30px;
+}
+
+aside p {
+    text-align: justify;
+    color: white;
+    margin-top: 30px;
+    
+}
+aside h2 {
+    color: white;
+}
